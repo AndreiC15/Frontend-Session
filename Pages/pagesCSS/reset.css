@@ -1,0 +1,91 @@
+body {
+    background-image: url('../testImages/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    margin: 0;
+    padding: 0;
+}
+
+.webIcon {
+    background-color: blue;
+    width: 450px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.webIcon p, .ForgotwebIcon p {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+.webIcon .hub, .ForgotwebIcon .hub {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+.LogForm {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.637);
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resetInfo{
+    margin-top:-10px;
+}
+.LogInText, .PasswordText {
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: rockwell;
+    text-align: center;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.ShowPass {
+    cursor: pointer;
+}
+
+.SubmitButton {
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divider {
+    background-color: black;
+    width: 90%;
+    height: 0.3%;
+    opacity: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .webIcon, .ForgotwebIcon {
+        margin-top: 5%;
+    }
+    .dividerTop {
+        width: 89.5%;
+    }
+    .LogForm, .RegForm {
+        width: 80%;
+        margin-top: 10vw;
+    }
+}

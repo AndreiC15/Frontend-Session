@@ -1,0 +1,175 @@
+.profileContainer {
+  background-color: rgba(253, 253, 253, 0.762);
+  border-style: solid;
+  width: 55%;
+  height:530px;
+  border-radius: 10px;
+  margin-left:20%;
+  margin-top:2%;
+  padding: 20px;
+  position: relative;
+}
+
+.profilePic {
+  margin-left: 41%; 
+  margin-top: 8%;/* Adjust as needed */
+}
+.userProfile{
+  margin-left: 49%;
+}
+.userIcon{
+  position:relative;width:180px;height:180px;margin-left:-200%
+}
+.userImage {
+  border-style: solid;
+  border-radius: 20px;
+  margin-left: -200%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.pickImage {
+  margin-top: 2.5%;
+  margin-left: -61.5%;
+}
+.removeImage {
+  position: absolute;
+  margin-top: 2.5%;
+  margin-left: -27.5%;
+}
+#redirectToWebcamBtn{
+  position: absolute;
+  margin-left:-59%;
+  margin-top:-100%;
+  margin-bottom:100px;
+}
+tr,
+td {
+  padding: 0px 10px 0px 10px;
+}
+table {
+  margin-left: -20px;
+}
+
+.personalInfo {
+  margin-top: 0%;
+}
+::placeholder, input{
+  text-align: center;
+}
+.userProfile{
+  position: absolute;
+  margin-top: 4%;
+}
+.userInfo1 {
+  text-align: center;
+  margin-top: 10%;
+  margin-left: -400%;
+}
+.userInfo2 {
+  text-align: center;
+  margin-top: -70%;
+  margin-left: -215%;
+}
+.userInfo3 {
+  text-align: center;
+  margin-top: -70%;
+  margin-left: -30%;
+}
+.userInfo4 {
+  text-align: center;
+  margin-top: -69%;
+  margin-left: 80%;
+}
+
+.editBtn {
+  background-color: green;
+  color: white;
+  padding: 5px 10px 10px 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 0.5;
+  height: 30px;
+  width: fit-content;
+  cursor: pointer;
+  margin-top: 8%;
+  margin-left: -120%;
+  z-index: 4;
+}
+
+p {
+  filter: invert(1);
+  font-weight: bold;
+}
+h2 {
+  position: absolute;
+  font-size: xx-large;
+  font-family: rockwell;
+  text-transform: uppercase;
+  margin-left: 32%;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .profileContainer {
+    margin-left: 24%;
+    margin-top: 5%;
+    height: 140vh;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  h2 {
+    font-size: 32px;
+    margin-left: 4%;
+    margin-top: 1%;
+  }
+  .userIcon{
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left:-180%;
+  }
+  .userImage {
+    margin-top:30%;
+    margin-left:-180%;
+  }
+  .pickImage {
+    margin-left: -38%;
+  }
+  .removeImage {
+    margin-left: -34%;
+    position:absolute;
+    margin-top: 15%;
+  }
+  #redirectToWebcamBtn{
+    position: absolute;
+    margin-left:30%;
+    margin-top:-348%;
+  }
+
+  .userProfile {
+    margin-top: 20%;
+    margin-left: -16%;
+  }
+  .userInfo1 {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 47%;
+  }
+  .userInfo2 {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 47%;
+  }
+  .userInfo3 {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 47%;
+  }
+  .userInfo4 {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 47%;
+  }
+  .editBtn{
+    margin-left: 69%;
+  }
+}
